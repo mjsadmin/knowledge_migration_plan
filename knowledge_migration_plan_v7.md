@@ -1,3 +1,4 @@
+```mermaid
 flowchart TD
     Start(["プロジェクト開始 全約84,000件"])
 
@@ -38,3 +39,4 @@ flowchart TD
 
     FINAL["全体の整合性検証・件数照合・バックアップ確認"]
     FINAL --> End(["移行完了"])
+```

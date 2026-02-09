@@ -17,11 +17,11 @@ flowchart TD
     P2 --> G4["HHD"]
     P2 --> G5["顧問先SW"]
 
-    G1 -.-> POOL
-    G2 -.-> POOL
-    G3 -.-> POOL
-    G4 -.-> POOL
-    G5 -.-> POOL
+    G1 -. "バッチ提出" .-> POOL
+    G2 -. "バッチ提出" .-> POOL
+    G3 -. "バッチ提出" .-> POOL
+    G4 -. "バッチ提出" .-> POOL
+    G5 -. "バッチ提出" .-> POOL
 
     POOL["統合プール"]
     POOL --> CROSS["グループ横断 重複・類似チェック"]
